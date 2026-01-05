@@ -1,15 +1,11 @@
+<script setup lang="ts"></script>
+
 <template>
-  <div class="container">
-    <div class="content-wrapper">
-      <profile-section />
-      <link-grid :links="data as Link[]" />
-    </div>
-  </div>
+  <h1>You did it!</h1>
+  <p>
+    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
+    documentation
+  </p>
 </template>
 
-<script lang="ts" setup>
-import data from '@/assets/data.json'
-import profileSection from './components/profile-section.vue'
-import linkGrid from './components/link-grid.vue'
-import type { Link } from './models/link'
-</script>
+<style scoped></style>
