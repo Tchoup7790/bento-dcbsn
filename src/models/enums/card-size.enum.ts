@@ -1,0 +1,6 @@
+export enum CardSize {
+  HRECTANGLE = 'HRECTANGLE',
+  VRECTANGLE = 'VRECTANGLE',
+  SSQUARE = 'SSQUARE',
+  BSQUARE = 'BSQUARE',
+}
