@@ -1,5 +1,5 @@
 <template>
-  <div v-if="props.links.length > 0">
+  <div class="link-grid" v-if="props.links.length > 0">
     <link-card v-for="link in props.links" :key="link.id" :link="link" />
   </div>
 </template>

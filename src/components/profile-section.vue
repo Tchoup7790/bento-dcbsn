@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="profile-section">
     <div>
       <img :src="`/${props.name}/head.png`" :alt="props.name" />
     </div>
