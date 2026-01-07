@@ -1,13 +1,13 @@
 <template>
   <a :href="props.link.url" target="_blank">
     <div>
-      <img src="" :alt="props.link.iconType" />
+      <img :src="`/${props.link.iconType}.ico`" :alt="props.link.iconType" />
       <div>
         <p>{{ props.link.title }}</p>
         <p>{{ props.link.host }}</p>
       </div>
     </div>
-    <div v-if="props.link.imageUrl">
+    <div v-if="!props.link.imageUrl">
       <img :src="props.link.imageUrl" :alt="props.link.title" />
     </div>
   </a>
