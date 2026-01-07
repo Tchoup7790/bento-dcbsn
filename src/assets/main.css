@@ -106,7 +106,6 @@ main {
 .link-card-header {
   display: flex;
   flex-direction: column;
-  gap: 12px;
 }
 
 .link-card-top {
@@ -193,6 +192,7 @@ main {
 /* === Mobile Responsive === */
 @media (max-width: 1259px) {
   body {
+    font-size: 14px;
     padding: 48px 24px;
   }
 
@@ -265,5 +265,16 @@ main {
 
   .link-card[data-mobile-size='SMALLRECTANGLE'] .link-card-image {
     display: none;
+  }
+
+  .link-card-header {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .link-card-top {
+    display: flex;
+    flex-direction: column;
   }
 }
